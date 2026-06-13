@@ -61,7 +61,7 @@ CREATE DATABASE `go-project`;
 Open `pkg/config/app.go` and update the database connection string with your MySQL username, password, and port:
 ```go
 // Replace with your credentials: username:password@tcp(host:port)/dbname
-d, err := gorm.Open("mysql", "root:yugjain12124@tcp(127.0.0.1:3306)/go-project?charset=utf8mb4&parseTime=True&loc=Local")
+d, err := gorm.Open("mysql", "<username>:<password>@tcp(127.0.0.1:3306)/go-project?charset=utf8mb4&parseTime=True&loc=Local")
 ```
 
 ### 4. Running the Application

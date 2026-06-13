@@ -30,3 +30,4 @@ coverage.txt
 .env
 .env.local
 .env.*
+!.env.example
